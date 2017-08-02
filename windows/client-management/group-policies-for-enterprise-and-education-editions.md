@@ -14,6 +14,22 @@ ms.localizationpriority: high
 
 -   Windows 10
 
+In Windows 10, version 1703, the following Group Policy settings were restored to functionality for all versions (Windows 10 Enterprise, Windows 10 Education, and Windows 10 Pro):
+
+| Policy name | Policy path | Comments |
+| --- | --- | --- |
+| **Start layout** | User Configuration\Administrative Templates\Start Menu and Taskbar | In Windows 10, version 1703, this policy setting can be applied to Windows 10 Pro. For more info, see [Manage Windows 10 Start layout options and policies](/windows/configuration/windows-10-start-layout-options-and-policies)  |
+
+In Windows 10, version 1703, The following Group Policy settings apply ONLY to Windows 10 Enterprise and Windows 10 Education:
+
+| Policy name | Policy path | Comments |
+| --- | --- | --- |
+| **Do not display the lock screen** | Computer Configuration > Administrative Templates > Control Panel > Personalization | For more info, see [Windows spotlight on the lock screen](/windows/configuration/windows-spotlight) |
+| **Turn off the Store application** | Computer Configuration > Administrative Templates > Windows Components > Store > Turn off the Store application<br><br>User Configuration > Administrative Templates > Windows Components > Store > Turn off the Store application | For more info, see [Knowledge Base article# 3135657](https://support.microsoft.com/kb/3135657). |
+
+
+
+
 In Windows 10, version 1607, the following Group Policy settings apply only to Windows 10 Enterprise and Windows 10 Education.
 
 | Policy name | Policy path | Comments |
